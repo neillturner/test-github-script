@@ -11,12 +11,13 @@ jobs:
           github-token: ${{secrets.GITHUB_TOKEN}}
           script: |
             try { 
+            throw new Error("Whoops!");
             await github.issues.createComment({
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
               body: '👋 Thanks for reporting!'
-            })
+            })             
             } catch(err) {
               // ignore error
             }
