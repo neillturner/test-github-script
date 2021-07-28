@@ -16,7 +16,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-#        with:
+        with:
+          fetch-depth: 0
 #          path: charts/github-actions-exporter
 
       - name: Install Helm
