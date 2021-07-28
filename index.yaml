@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  github-actions-exporter:
+  - apiVersion: v2
+    appVersion: 1.8.0
+    created: "2021-07-28T09:53:56.579633864Z"
+    description: github-actions exporter for prometheus
+    digest: 1651460672e1ebd3b41b7a6517d29d64deafe3fc9e01b1b9df3693db056fb781
+    name: github-actions-exporter
+    type: application
+    urls:
+    - https://github.com/neillturner/test-github-script/releases/download/github-actions-exporter-0.1.4/github-actions-exporter-0.1.4.tgz
+    version: 0.1.4
+generated: "2021-07-28T09:53:56.579638864Z"
